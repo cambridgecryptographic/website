@@ -43,4 +43,4 @@ user_groups:
 - Visitors
 ---
 
-We provide expertise and consultancy services related to public blockchains. Combining our mathematical ability and ability to shill OneCoin, we are the best. 
+We provide expertise and consultancy services related to public blockchains. Combining our mathematical ability and ability to shill bitCoin, we are the best. 
