@@ -1,6 +1,6 @@
 ---
-title: This is the first post
-date: 2019-07-12
+title: This is John's first blog
+date: 2020-09-12
 math: true
 diagram: true
 image:
@@ -8,22 +8,18 @@ image:
   caption: 'Image credit: [**John Moeses Bauan**](https://unsplash.com/photos/OGZtQF8iC0g)'
 ---
 
-This is a post.
 
-**this is bold.**
+# Welcome
 
-On this page, you'll find some examples of the types of technical content that can be rendered with Academic.
+This is some content blah blah.
 
-## Examples
+- [x] Make Coin
+- [x] Shill coin
+- [x] Profit
 
-### Code
+We wrote some code. 
 
-Academic supports a Markdown extension for highlighting code syntax. You can enable this feature by toggling the `highlight` option in your `config/_default/params.toml` file.
-
-    ```10 PRINT HELLO
-    20 GOTO 10
-    ```
-
+```PRINT HELLO WORLD```
 
 ### Math
 
@@ -31,29 +27,13 @@ Academic supports a Markdown extension for $\LaTeX$ math. You can enable this fe
 
 To render *inline* or *block* math, wrap your LaTeX math with `$...$` or `$$...$$`, respectively.
 
-Example **math block**:
+Example **latex**:
 
-```latex
-$$\gamma_{n} = \frac{ 
-\left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T 
-\left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}
-{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
-```
-
-renders as
 
 $$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
 
-Example **inline math** `$\nabla F(\mathbf{x}_{n})$` renders as $\nabla F(\mathbf{x}_{n})$.
 
-Example **multi-line math** using the `\\\\` math linebreak:
-
-```latex
-$$f(k;p_0^*) = \begin{cases} p_0^* & \text{if }k=1, \\\\
-1-p_0^* & \text {if }k=0.\end{cases}$$
-```
-
-renders as
+Example Latex 2
 
 $$f(k;p_0^*) = \begin{cases} p_0^* & \text{if }k=1, \\\\
 1-p_0^* & \text {if }k=0.\end{cases}$$
